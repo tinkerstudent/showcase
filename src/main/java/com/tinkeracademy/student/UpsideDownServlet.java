@@ -36,7 +36,7 @@ public class UpsideDownServlet extends HttpServlet {
                             'M',      'N',    'O',    'P',
                             'Q',      'R',    'S',    'T',
                             'U',      'V',    'W',    'X',
-                            'W',      'Z',
+                            'Y',      'Z',
                             '0',      '1',    '2',    '3',    
                             '4',      '5',    '6',    '7',    
                             '8',      '9',      
@@ -105,7 +105,7 @@ public class UpsideDownServlet extends HttpServlet {
                           'M',      'N',    'O',    'P',
                           'Q',      'R',    'S',    'T',
                           'U',      'V',    'W',    'X',
-                          'W',      'Z',
+                          'Y',      'Z',
                           '0',      '1',    '2',    '3',    
                           '4',      '5',    '6',    '7',    
                           '8',      '9',      
@@ -144,7 +144,10 @@ public class UpsideDownServlet extends HttpServlet {
     for (int i = input.length() - 1; i >= 0; i--) {
       char in = input.charAt(i);
       int index = findCharInAlphabetsArray(in);
-      char out = reverseAlphabets[index];
+      char out = in;
+      if (index != -1) {
+        out = reverseAlphabets[index];
+      }
       output = output + out;
     }
     return output;
@@ -156,7 +159,6 @@ public class UpsideDownServlet extends HttpServlet {
         return i;
       }
     }
-    System.out.println("cannot find char for " + in);
     return -1;
   }
 }
