@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+  <servlet>
+    <servlet-name>andy</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Andy Hsu</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>aneri</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Aneri Bhatt</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>aryan</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Aryan Kaul</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>conner</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Conner Yin</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>daniel</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Daniel Sabanov</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>kiran</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Kiran Sirish</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>meghna</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Meghna Vergis</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>pranav</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Pranav Chittharanjan</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>sivansh</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Sivansh Chitti</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>timothy</servlet-name>
+    <servlet-class>com.tinkeracademy.student.UpsideDownServlet</servlet-class>
+    <init-param>
+        <param-name>user</param-name>
+        <param-value>Timothy Liu</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>aneri</servlet-name>
+    <url-pattern>/aneri</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>andy</servlet-name>
+    <url-pattern>/andy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>aryan</servlet-name>
+    <url-pattern>/aryan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>conner</servlet-name>
+    <url-pattern>/conner</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>daniel</servlet-name>
+    <url-pattern>/daniel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>kiran</servlet-name>
+    <url-pattern>/kiran</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>meghna</servlet-name>
+    <url-pattern>/meghna</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pranav</servlet-name>
+    <url-pattern>/pranav</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sivansh</servlet-name>
+    <url-pattern>/sivansh</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>timothy</servlet-name>
+    <url-pattern>/timothy</url-pattern>
+  </servlet-mapping>
+</web-app>
